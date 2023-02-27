@@ -1,0 +1,155 @@
+<!-- //Documentation basic one page calendar using table concept  and basic css  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calendar Page </title>
+
+	<style>
+       
+
+/*       table main tag*/
+       table{
+       	border-collapse: collapse;
+       	margin:40px auto;
+       	border:1px solid white;
+       }		
+       
+
+
+/*       table data*/
+       td{
+       	border:1px solid black;
+       	width:100px;
+       	height:100px;
+       	text-align: center;
+       }
+
+/*       table head*/
+
+        th{
+             text-align: center;
+             padding:20px;
+             height:50px;
+             width:90px;
+             background-color:#eee;
+             font-size:25px ;
+        }
+
+.heading-1{
+	  background-color: red;
+      width:70%px;
+      height:100px;
+	}
+	.span-p{
+		color:white;
+		/*padding:10px;
+		*/margin: 20px 20px 20px 20px;
+		text-align: right;
+	}
+
+	.heading-1{
+               padding:10px;
+               margin:20px;
+                text-align: left;
+	}
+
+	.day{
+		color:red;
+		font-size:25px;
+	}
+	.year-name{
+		color:white;
+		font-size: 30px;
+		font-weight:10px ;
+		padding:220px;
+	}
+	.month{
+	    color:white;
+		font-size: 40px;
+		font-weight:10px ;
+		padding:220px;
+		font-family: "Times New Roman", serif;	
+	}
+
+	</style>
+
+</head>
+<body>
+   <h1 class="heading-1"> 
+   	<span class="year-name">
+   	    2023
+   </span><br>
+   <span class="month">MARCH</span>
+
+
+
+
+         
+   </h1>
+     <table class="table">
+     	<thead>
+     			<tr class="day">
+     			<th>Sun</th>
+     			<th>Mon</th>
+     			<th>Tues</th>
+     			<th>Wed</th>
+     			<th>Thu</th>
+     			<th>Fri</th>
+     			<th>Sat</th>
+     		</tr>
+     		
+     	</thead>
+     	 <tbody>
+     	 	<tr>
+     	 		<th></th>
+     	 		<th></th>
+     	 		<th></th>
+     	 		<th>1</th>
+     	 		<th>2</th>
+                <th>3</th>
+                <th>4</th>   
+     	 	</tr>
+     	 	<tr>
+     	 		<th>5</th>
+     	 		<th>6</th>
+     	 		<th>7</th>
+     	 		<th>8</th>
+     	 		<th>9</th>
+     	 		<th>10</th>
+     	 		<th>11</th>
+     	 	</tr>
+     	 	<tr>
+     	 		<th>12</th>
+     	 		<th>13</th>
+     	 		<th>14</th>
+     	 		<th>15</th>
+     	 		<th>16</th>
+     	 		<th>17</th>
+     	 		<th>18</th>
+     	 	</tr>
+            <tr>
+            	<th>19</th>
+            	<th>20</th>
+            	<th>21</th>
+            	<th>22</th>
+            	<th>23</th>
+            	<th>24</th>
+            	<th>25</th>
+            </tr> 
+            <tr>
+            	<th>26</th>
+            	<th>27</th>
+            	<th>28</th>
+            	<th>29</th>
+            	<th>30</th>
+            	<th>31</th>
+            	<th></th>
+            </tr>
+     	 </tbody>
+     </table>
+    
+</body>
+</html>

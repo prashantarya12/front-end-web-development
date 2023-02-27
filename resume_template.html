@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Resume </title>
+	<style>
+		body{
+			font-family: Arial,sans-serif;
+			margin:0;
+			padding:0;
+		}
+		header{
+			background-color: #333;
+			color:#fff;
+			padding:20px;
+			text-align: center;
+		}
+		nav{
+			background-color:#f2f2f2;
+			padding:10px;
+			position: sticky;
+			top:0;
+		}
+		nav ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			display: flex;
+			justify-content: space-between;
+		}
+		nav li{
+			float:left;
+		}
+		nav li a{
+			display:block;
+			color:#333;
+			text-align: center;
+			padding:14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover{
+			background-color: #ddd;
+		}
+		section{
+			padding:20px;
+			margin:20px;
+			border:1px solid #ddd;
+			border-radius: 10px;
+			background-color: #f2f2f2;
+		}
+		section h2{
+		     margin-top:0;
+		}
+		section ul{
+			list-style:none;
+			padding:0;
+		}
+		section li{
+			margin-bottom:10px;
+		}
+		section .photo{
+			display:flex;
+			justify-content: center;
+			margin-bottom: 20px;
+
+		}
+
+		section .photo img{
+			border-radius: 50%;
+			width:200px;
+			height:200px;
+			object-fit: cover;
+		    object-position: center;	
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Prashant Arya</h1>
+		<p>Java Full Stack Developer</p>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="">Personal Information</a></li>
+			<li><a href="">Eduction</a></li>
+			<li><a href="">Work Experience</a></li>
+			<li><a href="">Skills</a></li>
+		</ul>
+
+		<main>
+			<section id="personal_info">
+				<h2>Personal Information</h2>
+				<div class="photo">
+					
+					<img src="image/my_photo.jpeg" alt="Photo of Prashant Arya" width="110px" height="120px">
+				</div>
+			      <ul>
+			       <li><strong>Name:</strong>Prashant Arya</li>
+			       <li><strong>Email:</strong>prashantarya120@gmail.com</li>
+			       <li><strong>Phone:</strong>555-555-5555</li>
+			       <li><strong>Address:</strong>125 Main Street, Gular Road, Aligarh-202001, India </li>
+			      </ul> 
+			</section>
+
+			<section id="education">
+				<h2>Education</h2>
+				<ul>
+					<li><strong>Bachelor of Computer Application</strong>XYZ University (2018-2021</li>
+					<li><strong>Master of Computer Application</strong>XYZ University (2021-2023</li>
+				</ul>
+			</section>
+		</main>
+	</nav>
+</body>
+</html>
